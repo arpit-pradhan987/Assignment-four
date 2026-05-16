@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deep'style - Fashion Store</title>
+    <title>Deep°style - Fashion Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
 </head>
+
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="nav-wrapper">
-            <div class="logo">Deep'style</div>
-            <ul class="nav-menu">
+
+    <div class="wrapper">
+        <header>
+            <div class="logo">Deep<span>&deg;</span>style</div>
+            <ul class="nav-links">
                 <li><a href="#">New Arrivals</a></li>
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">Beauty</a></li>
@@ -19,92 +25,79 @@
                 <li><a href="#">Journal</a></li>
             </ul>
             <div class="nav-icons">
-                <span class="search-icon">🔍</span>
-                <span class="user-icon">👤</span>
-                <div class="cart-icon">🛒</div>
+                <div class="icon-outline"><i class="ph ph-magnifying-glass"></i></div>
+                <div class="icon-outline"><i class="ph ph-hexagon"></i></div>
+                <div class="icon-circle"><i class="ph ph-shopping-cart-simple"></i></div>
             </div>
-        </div>
-    </nav>
+        </header>
 
-    <!-- Main Container -->
-    <div class="wrapper">
-        <!-- Left Section -->
-        <section class="left-section">
-            <div class="collection-header">
-                <span class="sunflower">🌻</span>
-                <p class="collection-label">Summer Collection</p>
-                <h2 class="collection-title">TRANDY AND<br>CLUSSII FOR<br>NEW SEASON</h2>
-            </div>
+        <main>
+            <h1 class="hero-title">Make Your Fashion Look<br>More Charming</h1>
 
-            <div class="left-gallery">
-                <div class="img-box large orange"></div>
-                <div class="img-row">
-                    <div class="img-box beige"></div>
-                    <div class="img-box teal"></div>
-                </div>
+            <!-- Scattered Decorations using standard Emojis & Characters -->
+            <div class="deco deco-1">&#127803;</div>
+            <div class="deco deco-2">&#127802;</div>
+            <div class="deco deco-3">&#127804;</div>
+            <div class="deco deco-4">&#10022;</div> <!-- Black Star -->
+            <div class="deco deco-5">&#127802;</div>
+            <div class="deco deco-6">&#129344;</div> <!-- Wilted Rose -->
+
+            <!-- Left Text Block -->
+            <div class="text-block-left">
+                <h4>Summer Collection</h4>
+                <h2>TRANDY AND CLUSSI FOR NEW SEASSON</h2>
             </div>
 
-            <div class="testimonial">
-                <p class="quote">I'm very much of the 'buy less but buy better' philosophy. It's what I've never really knew</p>
-                <p class="author">Josh Lukberic</p>
+            <!-- Center Collage Section -->
+            <div class="collage-container">
+                <div class="img-box img-main"></div>
+                <div class="img-box img-lt"></div>
+                <div class="img-box img-lb"></div>
+                <div class="img-box img-fl"></div>
+                <div class="img-box img-rt"></div>
+                <div class="img-box img-rb"></div>
+                <div class="img-box img-fr"></div>
             </div>
-        </section>
 
-        <!-- Center Section -->
-        <section class="center-section">
-            <div class="center-container">
-                <div class="top-flowers">
-                    <span class="flower left-flower">🌻</span>
-                    <span class="flower right-flower">🌷</span>
-                </div>
-
-                <h1 class="main-heading">Make Your Fashion Look More Charming</h1>
-
-                <div class="center-gallery">
-                    <div class="img-box small beige"></div>
-                    <div class="img-box large yellow center-large">
-                        <span class="star">✨</span>
-                    </div>
-                    <div class="img-box medium orange"></div>
-                    <div class="img-box medium teal"></div>
-                    <div class="img-box small blue"></div>
-                </div>
-
-                <div class="scroll-section">
-                    <p class="scroll-text">SCROLL DOWN</p>
-                    <span class="arrow">⬇️</span>
-                </div>
-
-                <span class="bottom-flower">🌸</span>
-            </div>
-        </section>
-
-        <!-- Right Section -->
-        <section class="right-section">
+            <!-- Explore More Circular Button -->
             <div class="explore-circle">
-                <span class="circle-label">EXPLORE MORE COLLECTION</span>
-                <span class="play-btn">▶</span>
+                <svg viewBox="0 0 100 100" width="130" height="130">
+                    <path id="circlePath" d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" fill="none" />
+                    <text font-size="12" font-weight="800" letter-spacing="3.5">
+                        <textPath href="#circlePath">EXPLORE MORE COLLECTION &bull; </textPath>
+                    </text>
+                </svg>
+                <div class="play-btn"></div>
+            </div>
+            <div class="footer">
+            <!-- Right Side Year Tag -->
+            <div class="year-tag">#2022</div>
+
+            <!-- Bottom Left Quote -->
+            <div class="quote-block">
+                <span class="quote-mark">&ldquo;</span>
+                <p>I'm very much of the 'buy less but buy<br>better' philosophy. It's what I've never really knew</p>
+                <div class="signature">Josh Luchbovic</div>
             </div>
 
-            <div class="right-gallery">
-                <div class="img-box medium orange"></div>
-                <div class="img-box medium orange"></div>
-                <div class="img-box medium green">
-                    <span class="tag">#2022</span>
+            <!-- Bottom Right Blog Entry -->
+            <div class="blog-block">
+                <div class="blog-number">01</div>
+                <div class="blog-content">
+                    <p class="date">31 May 2022 &bull; Blog</p>
+                    <h3>Always be strong<br>and have valus</h3>
                 </div>
+                <div class="icon-circle" style="width: 40px; height: 40px;"><i class="ph ph-arrow-right"></i></div>
             </div>
 
-            <div class="blog-card">
-                <span class="blog-num">01</span>
-                <div class="blog-text">
-                    <p class="blog-date">31 May 2022 • Blog</p>
-                    <h3 class="blog-title">Always be strong and have valus</h3>
-                </div>
-                <div class="blog-arrow">→</div>
+            <!-- Bottom Center Scroll Button -->
+            <div class="scroll-down">
+                SCROLL DOWN <i class="ph ph-caret-down" style="font-size: 16px;"></i>
             </div>
-
-            <span class="rose-flower">🌹</span>
-        </section>
+            </div>
+        </main>
     </div>
+
 </body>
+
 </html>
